@@ -3,3 +3,5 @@ type = "javascript"
 
 account_id = "25ac9eab3126921579b6e7b7114589ad"
 workers_dev = true
+
+pages_build_output_dir = "./codeout"
