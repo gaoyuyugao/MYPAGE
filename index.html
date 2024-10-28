@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome Website</title>
+  <title>欢迎页面</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>欢迎来到我的网站！</h1>
-    <p>这是一个简单的欢迎网站，感谢您的访问！</p>
-    <button onclick="showMessage()">点击这里</button>
-    <p id="message" class="hidden">希望你喜欢这个页面！</p>
+  <div class="top-right">
+    <button onclick="login()">登录</button>
+    <button onclick="register()">注册</button>
+  </div>
+  <div class="game-space">
+    <p>这里是小游戏的空间，敬请期待！</p>
   </div>
   <script src="script.js"></script>
 </body>

@@ -1,5 +1,7 @@
-function showMessage() {
-    const message = document.getElementById("message");
-    message.classList.toggle("hidden");
-  }
-  
+function login() {
+  alert("登录功能正在开发中！");
+}
+
+function register() {
+  alert("注册功能正在开发中！");
+}
