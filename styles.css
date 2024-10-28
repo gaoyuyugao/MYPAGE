@@ -6,11 +6,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  height: 100vh;
+  background-color: white;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  height: inherit;
 }
 
 .top-right {
@@ -42,4 +44,22 @@ button:hover {
   justify-content: center;
   font-size: 24px;
   color: #333;
+}
+
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
 }
